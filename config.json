@@ -1,0 +1,135 @@
+
+{
+  "ai": {
+    "mode": "auto"
+  },
+  "resume_dir": "resume",
+  "openai": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "timeout_seconds": 90,
+    "max_attempts": 5,
+    "request_delay_seconds": 2
+  },
+  "preferences": {
+    "roles": [
+      "Graduate Engineer Trainee",
+      "Software Engineer Trainee",
+      "Software Developer Intern",
+      "Junior Software Developer",
+      "Python Developer",
+      "Python Developer Intern",
+      "Junior Data Analyst",
+      "Data Analyst",
+      "Data Analyst Intern",
+      "Junior Data Engineer",
+      "Associate Data Engineer",
+      "Junior Analytics Engineer",
+      "Business Analyst",
+      "SQL Developer",
+      "Technical Support Engineer",
+      "Associate Software Engineer"
+    ],
+    "locations": [
+      "Hyderabad",
+      "Bengaluru",
+      "Pune",
+      "Chennai",
+      "Mumbai",
+      "Noida",
+      "Gurugram",
+      "Remote"
+    ],
+    "remote_ok": true,
+    "extra_skills": []
+  },
+  "scoring": {
+    "weights": {
+      "technical_skills": 0.4,
+      "experience": 0.2,
+      "education": 0.1,
+      "title_relevance": 0.2,
+      "location": 0.1
+    },
+    "highly_relevant_min": 80,
+    "moderately_relevant_min": 60,
+    "notify_min_score": 65
+  },
+  "search": {
+    "max_queries": 5,
+    "max_age_days": 14,
+    "min_description_chars": 60,
+    "min_prefilter_score": 2,
+    "max_jobs_to_score": 40,
+    "max_description_chars_for_ai": 6000
+  },
+  "email": {
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 465,
+    "max_attempts": 3,
+    "max_jobs_per_digest": 30
+  },
+  "history": {
+    "retention_days": 180
+  },
+  "sources": {
+    "remotive": {
+      "enabled": true
+    },
+    "arbeitnow": {
+      "enabled": true
+    },
+    "adzuna": {
+      "enabled": false,
+      "country": "in",
+      "where": "",
+      "results_per_page": 30
+    },
+    "greenhouse": {
+      "enabled": false,
+      "boards": [
+        "examplecompany"
+      ]
+    },
+    "lever": {
+      "enabled": false,
+      "companies": [
+        "examplecompany"
+      ]
+    },
+    "rss": {
+      "enabled": false,
+      "feeds": [
+        {
+          "name": "Example RSS",
+          "url": "https://example.com/jobs.rss"
+        }
+      ]
+    },
+    "custom_json": {
+      "enabled": false,
+      "endpoints": [
+        {
+          "name": "My authorized job API",
+          "url": "https://api.example.com/v1/jobs",
+          "params": {
+            "q": "{query}"
+          },
+          "headers": {
+            "Authorization": "Bearer ${MY_JOB_API_TOKEN}"
+          },
+          "items_path": "results",
+          "fields": {
+            "id": "id",
+            "title": "title",
+            "company": "company.name",
+            "location": "location",
+            "url": "apply_url",
+            "description": "description",
+            "posted_at": "published_at"
+          }
+        }
+      ]
+    }
+  }
+}

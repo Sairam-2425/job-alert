@@ -1,0 +1,110 @@
+{
+  "_analyzed_at": "2026-11-17T12:12:37+00:00",
+  "_mode": "local",
+  "_resume_file": "ba___de_resume (1).pdf",
+  "_resume_sha256": "3bf17cf432eb050fd552897d95b0ebe4c5bc8c7705c89532c0bc57cc4b429e38",
+  "certifications": [
+    "Cloud          Google Associate Cloud Engineer",
+    "Full Stack      Wipro Java Full Stack Developer",
+    "Programming  PMKVY 4.0 Software Developer – Python"
+  ],
+  "current_title": null,
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "details": "B.Tech in Computer Science and Engineering              KL University, Andhra Pradesh",
+      "level": 2,
+      "year": null
+    }
+  ],
+  "experience": [],
+  "full_name": "Peddinti Gnana Sai Ram",
+  "preferences_source": "none",
+  "preferred_locations": [],
+  "preferred_roles": [],
+  "projects": [
+    {
+      "description": "",
+      "name": "Rideshare Analytics and Data Pipeline                                                 2026",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "Snowflake, SQL, dbt, Python",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "ments.",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "Music Analytics Data Pipeline                                                         2026",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "Python, Snowflake, SQL, dbt, Streamlit",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "Internship",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "AI-ML Virtual Internship                                                              2024",
+      "technologies": []
+    },
+    {
+      "description": "",
+      "name": "AICTE Eduskills",
+      "technologies": []
+    }
+  ],
+  "search_keywords": [
+    "Python",
+    "Snowflake",
+    "ETL",
+    "SQL",
+    "dbt",
+    "Git"
+  ],
+  "seniority_level": null,
+  "skill_mentions": {
+    "Data Analysis": 2,
+    "ETL": 7,
+    "Excel": 2,
+    "GCP": 1,
+    "Git": 4,
+    "Java": 2,
+    "Machine Learning": 3,
+    "MongoDB": 1,
+    "MySQL": 1,
+    "Python": 8,
+    "REST API": 1,
+    "SQL": 6,
+    "Snowflake": 7,
+    "dbt": 6
+  },
+  "summary": "Computer Science graduate with skills in SQL, Python, Excel, and data analysis.  Experienced with Snowflake, dbt, and data pipelines through academic projects. Strong analytical and problem-solving skills with an interest in turning data into useful business insights.",
+  "technical_skills": [
+    "Python",
+    "Snowflake",
+    "ETL",
+    "SQL",
+    "dbt",
+    "Git",
+    "Machine Learning",
+    "Excel",
+    "Data Analysis",
+    "Java",
+    "MySQL",
+    "MongoDB",
+    "GCP",
+    "REST API"
+  ],
+  "total_experience_years": 4.0
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+out/
+*.log
+
+# --- Resume privacy -------------------------------------------------------
+# Option A (default): the resume is committed to a PRIVATE repo so the workflow can parse it.
+# Option B: keep the resume off GitHub. Uncomment the two lines below, run the
+# parser locally once (see README) and commit only data/candidate_profile.json.
+# resume/*.pdf
+# resume/*.docx
